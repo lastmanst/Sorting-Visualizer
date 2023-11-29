@@ -1,0 +1,228 @@
+/*
+    *****************
+    DONE BY:-   TUMMALA KETHAN
+    *****************
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    background-color: #1773dd;
+    color: white;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 60%;
+        grid-template-columns: 30% 60%;
+    -webkit-column-gap: 10%;
+            column-gap: 10%;
+    padding: 0% 5%;
+  }
+  
+  nav .array-inputs {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 40%;
+        grid-template-columns: 60% 40%;
+    place-content: center;
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_size {
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_speed {
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_generate {
+    border: 1px solid black;
+  color: #1773dd;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+  
+  
+  nav .array-inputs #a_generate:hover {
+    cursor: pointer;
+    background-color: #91af4c;
+  }
+  
+  nav .header_right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  nav .header_right .nav-heading {
+    display: inline-block;
+    font-size: x-large;
+    padding: 3% 0%;
+    place-content: center;
+  }
+
+   nav .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f3efef;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: right;
+    cursor: pointer;
+    outline: none;
+  }
+  nav .dropdown-container {
+    display: none;
+    background-color: #f1ecec;
+    padding-left: 8px;
+  }
+  nav .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  nav .header_right .algos {
+    display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (16.66667%)[];
+      grid-template-columns: repeat(6, 19.66667%);
+  place-content: center;
+  padding: 2% 0%;
+    
+    }
+  
+  
+  
+  nav .header_right .algos button {
+    background-color: white;
+    border: 1px solid black;
+    color: #1773dd;
+    outline: none;
+    padding: 3% 0%;
+    
+    font-size: 16px;
+  }
+  
+  nav .header_right .algos button:hover {
+    background-color :#91af4c;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_locked {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_locked:hover {
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_selected {
+    background-color: white;
+    color: green;
+  }
+  
+  nav .header_right .algos .butt_selected:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_unselected:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 60% 20%;
+        grid-template-columns: 20% 60% 20%;
+  }
+  
+  section .Complexity_Containers {
+    margin-top: 20%;
+  }
+  
+  section .Complexity_Containers .Pair_Definitions {
+    margin-top: 20%;
+  }
+  
+  section .Complexity_Containers .Pair_Definitions p {
+    display: inline;
+  }
+  
+  section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+    font-size: medium;
+    text-transform: none;
+  }
+  
+  section #Info_Cont1 {
+    padding: 20% 10%;
+  }
+  
+  section #Info_Cont1 h3 {
+    text-decoration: underline;
+  }
+  
+  section #array_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  section #Info_Cont2 {
+    padding: 20% 10%;
+  }
+  
+  section #Info_Cont2 h3 {
+    text-decoration: underline;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  /*
+  @media (max-width: 480px)//Mobiles
+  {
+      
+  }
+  
+  @media (min-width: 481px) and (max-width: 1250px)//Tablets
+  {
+  
+  }
+  
+  @media (min-width: 1251px)//Laptops and up
+  {
+  
+  }
+  */
+  /*
+      *****************
+      DONE BY:-   TUMMALA KETHAN
+      *****************
+  */
+  /*# sourceMappingURL=style.css.map */
